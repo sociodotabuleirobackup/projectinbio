@@ -9,13 +9,16 @@ import Button from "../ui/button"
 
 
 const icons = [Github, Instagram, Linkedin, Twitter, Plus]
+import Image from "next/image"
 
 export default function UseCard(){
   return (
     <div className="w-[340px] flex flex-col gap-5 items-center p-5 border border-white border-opacity-10 bg-[#121212] rounded-3xl text-white">
       <div className="size-48">
         <img 
-          src="../../../public/me.jpeg" 
+        width={1000}
+        height={760}
+          src="/public/IMG_2170.jpg" 
           alt="bruno dev" 
           className="rounded-full object-cover w-full h-full"
         />
